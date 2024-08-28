@@ -275,6 +275,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 120px 118px 120px 75px;
+  background: #f7f7f7;
 }
 
 .feature-titulo h2 {
@@ -319,6 +320,114 @@
   font-size: 24px;
   line-height: 28px;
   color: #707070;
+}
+
+.planos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  gap: 60px;
+}
+
+.planos h2 {
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 107px;
+  color: #001f26;
+  text-align: center;
+}
+
+.cartoes {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.cartao {
+  width: 350px;
+  height: 400px;
+  border: 1.5px solid #dedede;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartao.premium {
+  height: 514px;
+  border: 1.5px solid #9c9c9c;
+  border-radius: 5px;
+}
+
+.cartao.premium h3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 30px;
+  color: #001f26;
+}
+
+.cartao h3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 30px;
+  color: #707070;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.planos-btn {
+  display: block;
+  all: unset;
+  align-items: center;
+  padding: 11px 100px;
+  gap: 10px;
+  background: #222a35;
+  border-radius: 3px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  margin: 0 auto 28px auto;
+}
+
+.planos-btn.premium {
+  background: #003e4d;
+}
+
+.planos-lista li {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.planos-lista li::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 14px;
+  background-image: url(/img/icones/tick.svg);
+  color: #00abe4;
+  margin-right: 10px;
+  margin-left: 15px;
 }
 
 .footer-container {
